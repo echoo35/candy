@@ -1,0 +1,38 @@
+body {
+    /* Arka plan resmi ekler */
+    background: url("./background.jpg") no-repeat center center fixed;
+    /* Arka plan resminin boyutunu ayarlar */
+    background-size: cover;
+    /* Metinlerin font ailesini belirler */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Metinlerin rengini beyaz yapar */
+    color: white;
+    /* Metinleri merkeze hizalar */
+    text-align: center;
+}
+
+#board {
+    /* Oyun tahtası divinin genişliğini ayarlar */
+    width: 450px;
+    /* Oyun tahtası divinin yüksekliğini ayarlar */
+    height: 450px;
+    /* Oyun tahtasının arka plan rengini belirler */
+    background-color: lightblue;
+    /* Oyun tahtasının kenarlık kalınlığını ve rengini belirler */
+    border: 5px solid slategray;
+    /* Oyun tahtasının kenarlarının yumuşaklığını ayarlar */
+    border-radius: 10px;
+    /* Oyun tahtasını sayfa ortasına hizalar */
+    margin: 0 auto;
+    /* İçeriğin flex konteyneri içinde sarmalanmasını sağlar */
+    display: flex;
+    /* İçeriğin flex konteyneri içinde sarmalanmasını sağlar */
+    flex-wrap: wrap;
+}
+
+#board img {
+    /* Oyun tahtasındaki resimlerin genişliğini ayarlar */
+    width: 50px;
+    /* Oyun tahtasındaki resimlerin yüksekliğini ayarlar */
+    height: 50px;
+}
